@@ -14,14 +14,15 @@
 # print(tuple(b))
 
 #------------------------------------------------------------------------------#
+# Compress consecutive duplicates.
 #version-2
      
-# a = (1,1,1,2,2,3,3,3,1)
-# b = []
-# for i in range(len(a)):
-#     if i == (len(a)-1) or a[i] != a[i+1] :
-#         b.append(a[i])
-
+a = (1,1,1,2,2,3,3,3,1)
+b = []
+for i in range(len(a)):
+    if i == (len(a)-1) or a[i] != a[i+1] :
+        b.append(a[i])
+print(tuple(b))
 #------------------------------------------------------------------------------#
 # mirror algorithum version 
 

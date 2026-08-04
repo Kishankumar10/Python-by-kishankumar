@@ -1,6 +1,6 @@
 # Find the longest run of identical values
 
-a = (1,1,2,2,3,3,3)           # answer = 3
+a = (1,1,2,2,3,7,7,7,7)           
 count = 1
 longest_run = 0
 for i in range(len(a)) :

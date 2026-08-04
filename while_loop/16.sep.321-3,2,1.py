@@ -11,3 +11,4 @@ while div > 0 :
     else :
         result += "," + first_digit
 print(result)
+ 
