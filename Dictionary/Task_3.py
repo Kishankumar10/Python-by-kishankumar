@@ -46,7 +46,7 @@ studentsData = [
         "name": "hhh",
         "email": "hhh@gmail.com",
         "mobile": 327647335,
-        "marks": [77, 98, 80, 93, 78]
+        "marks": [77, 100, 90, 93, 100]
     },
     {
         "name": "iii",
@@ -81,10 +81,31 @@ for i in sorted_list :
         "total" : i,
         "rank" : sorted_list.index(i) + 1 
     })
+for i in result :             
+    if i["total"] > 450 :
+        i["feedback"] = "Very good"
+    elif i["total"] > 400:
+        i["feedback"] = "good"
+    else :
+        i["feedback"] = "need improvement"
 
 print(result)
 
 # for more clear dictionary
 #  visulaization 
 # for i in result :
-    # print("\n",i,"\n")
+#     print("\n",i,"\n")
+
+#________________________________________________
+# version - 2 (for duplicates)
+
+result = []
+for i in studentsData :
+    result.append({
+        "name" : i["name"],
+        "email" : i["email"],
+        "mobile" : i["mobile"],
+        "marks" : i["marks"],
+        "total" : sum(i["marks"]),
+    })
+
