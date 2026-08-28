@@ -1,0 +1,2 @@
+A new file is created using the write mode
+now i am appending a new datanow i am appending a new data

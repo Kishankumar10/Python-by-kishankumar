@@ -1,0 +1,3 @@
+The old content are deleted
+The new content is written
+seperate write() method is used again
