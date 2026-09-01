@@ -6,18 +6,18 @@
 
 # version - 1 :
 
-# dict_a = {'a': 10, 'b': 20} 
-# dict_b = {'b': 5, 'c': 15}
+dict_a = {'a': 10, 'b': 20} 
+dict_b = {'b': 5, 'c': 15}
 
-# result = dict_a.copy()
+result = dict_a.copy()
 
-# for i,j in dict_b.items() :
-#     if i in dict_a :
-#         result[i] += j
-#     else:
-#         result[i] = j
+for i,j in dict_b.items() :
+    if i in dict_a :
+        result[i] += j
+    else:
+        result[i] = j
         
-# print(result)
+print(result)
 
 # version - 2 
 
