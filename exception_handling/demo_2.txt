@@ -1,0 +1,3 @@
+hello! 
+You opended the demo_2 file successfully
+program finished
